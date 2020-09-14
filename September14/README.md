@@ -8,9 +8,9 @@ Each button has an assigned value 1,2,3, or 4. There is a counter running in the
 empty values that are filled with four button pushes. Lets say that the first button we press is the third one. It has a predetermined value of 3, and since this is the first button that we push the counter has a value of 0. This means that in the array[0] (first position) the first value will be 3. While doing this the counter goes 1 value up which means that the next button we push will assign a value to the next slot in the array.
 
 ## Images
-![](Scheme.png)
+![](imagelock.png)
 
-![](Circuit.png)
+![](lockcircui.png)
 
 ## Problems
 The biggest issue was remembering the value of the previously pressed button in the sequence of pressing 4 buttons. After that, the buttons could be pressed for a longer period 
