@@ -10,7 +10,7 @@ empty values that are filled with four button pushes. Lets say that the first bu
 ## Images
 ![](imagelock.png)
 
-![](lockcircui.png)
+![](lockcirui.png)
 
 ## Problems
 The biggest issue was remembering the value of the previously pressed button in the sequence of pressing 4 buttons. After that, the buttons could be pressed for a longer period 
