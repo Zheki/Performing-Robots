@@ -8,3 +8,4 @@ The video was recorded using a mobile phone camera. The actors of this video are
 Since the robots were acting and multiple scenes were taken, a single arduino code was very impractical. Therefore, I made a core code and then changed certain lines and values so that the robots would be able to act out a single scene at a time. The code uploaded on this page is from the final recorded scene: the dialogue of Lady Macbeth. The background music of the video was not made by me, but was downloaded from a royalty free source.
 
 ## The best part: [The Video](https://www.youtube.com/watch?v=4JmbkYKBxAc)
+![](msduncan.jpg)
