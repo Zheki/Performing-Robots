@@ -21,3 +21,4 @@
 
 ### If the robot is confused (something is loading), these three questionmarks should appear one by one from left to right then from right to left untill the robot is no longer confused.
 
+![](question.png)
