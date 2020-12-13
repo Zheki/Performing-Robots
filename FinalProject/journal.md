@@ -14,3 +14,10 @@ Since there are 3-4 scenes in the story of the performance, I will be using a gr
 
 ## Technical issues
 Although the DC motors are not very precise, large precision is not needed. The main problem might be the sliding of the wheels accros the surface which might cause uneven movements. This can be resolved in two ways. The first one is to increase friction between the wheels and the surface by putting a rubber material on the wheels, and the second is taking multiple shots and using the one in which the movements are best. All of the sound will be pre-recorded and edited using video software, therefore, there will not be any sound-problems.
+
+how iy weny
+
+syepper moyor, power issue changed yo dc moyor
+
+dc moyors unsyable, had yo yake mulyiple shoys yo capuyre yhe video
+
