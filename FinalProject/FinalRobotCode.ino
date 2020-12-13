@@ -589,6 +589,7 @@ void setup()
   }
   Serial.println( "ID matches 0xA9" );
 
+  //  Check to make sure the driver is done looking for slaves before beginning
   Serial.print("Waiting for enumeration...");
   while ( myMotorDriver.ready() == false );
   Serial.println("Done.");
@@ -598,7 +599,11 @@ void setup()
   while ( myMotorDriver.busy() );
   myMotorDriver.inversionMode(1, 0); //invert motor 1
   while ( myMotorDriver.busy() );
-  myMotorDriver.enable(); //Enables the output driver hardware                                       //To here
+  myMotorDriver.enable(); //Enables the output driver hardware
+
+  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3D)) { // Address 0x3D for 128x64
+    Serial.println(F("SSD1306 allocation failed"));
+    for (;;); // Don't proceed, loop forever                                           //To here
   }
 
   //Clear the display
@@ -637,7 +642,7 @@ void loop()
 
 }                                                    //This was the code for scene one, after that everything was done by simply commenting and uncommenting parts of the code whih I needed for the next scenes, or needed them removed.
                                                      //For example, when I needed only the head to turn, all of the other movements were commented.
-  
+
 
 //Functions for: Sad animation
 void sad() {
