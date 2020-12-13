@@ -589,7 +589,6 @@ void setup()
   }
   Serial.println( "ID matches 0xA9" );
 
-  //  Check to make sure the driver is done looking for slaves before beginning
   Serial.print("Waiting for enumeration...");
   while ( myMotorDriver.ready() == false );
   Serial.println("Done.");
