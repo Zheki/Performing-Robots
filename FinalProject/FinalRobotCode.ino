@@ -598,11 +598,7 @@ void setup()
   while ( myMotorDriver.busy() );
   myMotorDriver.inversionMode(1, 0); //invert motor 1
   while ( myMotorDriver.busy() );
-  myMotorDriver.enable(); //Enables the output driver hardware
-
-  if (!display.begin(SSD1306_SWITCHCAPVCC, 0x3D)) { // Address 0x3D for 128x64
-    Serial.println(F("SSD1306 allocation failed"));
-    for (;;); // Don't proceed, loop forever                                           //To here
+  myMotorDriver.enable(); //Enables the output driver hardware                                       //To here
   }
 
   //Clear the display
